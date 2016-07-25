@@ -33,13 +33,14 @@ class ofApp : public ofBaseApp{
 	    ofVideoGrabber vidGrabber;
 	    int mode;
 
-	    ofSpherePrimitive sphere_1;
+	    ofSpherePrimitive sphere;
 
-	    ofLight pointlight0;
-	    ofLight pointlight1;
-	    ofLight pointlight2;
-	    ofMaterial mat1;
+	    ofLight pointLight;
+	    ofLight pointLight2;
+	    ofLight pointLight3;
+	    ofMaterial material;
 
-	    
+        vector<ofMeshFace> triangles;
+
 
 };
